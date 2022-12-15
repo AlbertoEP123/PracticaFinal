@@ -1,0 +1,168 @@
+<<<<<<< HEAD
+body {
+    background-color: rgba(255, 199, 199, 0.24);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+=======
+li{
+>>>>>>> 3252eb4b6a1feccaa8b644c617463fd5ecf2734a
+    display: inline-block;
+    width: 3%;
+    height: 1.5em;
+    background-color: rgb(233, 208, 208);
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: red;
+    padding-top: 1vh;
+    font-size: x-large;
+    box-shadow: 2px 2px darkgreen;
+}
+
+<<<<<<< HEAD
+.fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5% 5% 5% 5%;
+}
+
+aside {
+    column-count: 3;
+    column-gap: 30px;
+    height: 50%;
+    border: solid 1px rgba(255, 0, 0, 0.158);
+    border-radius: 2%;
+    border-block-end-width: 3px;
+    background-color: rgba(127, 255, 212, 0.075);
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+
+.imagenes {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: unset;
+    margin-left: 2%;
+    border: solid 1px;
+    width: 95%;
+    padding: 1% 1% 1% 1%;
+}
+
+span {
+    color: brown;
+    text-shadow: 2px 1px 1px rgb(52, 206, 155);
+}
+
+#logo {
+    float: left;
+    width: 7%;
+    height: 7%;
+    margin: 1% 1% 1% 1%;
+}
+
+#logo:hover {
+    border: solid 2px;
+    border-radius: 20%;
+    color: blue;
+    box-shadow: 2px 2px 1px red;
+
+}
+
+nav {
+    background-color: rgba(132, 253, 217, 0.486);
+=======
+nav{
+    background-color: rgba(242, 248, 217, 0.603);
+>>>>>>> 3252eb4b6a1feccaa8b644c617463fd5ecf2734a
+    text-align: center;
+    width: 50%;
+    margin: 2% 2% 2% 25%;
+    border-style: dotted solid double groove;
+}
+
+#seleccionado {
+    box-shadow: 2px 2px darkgreen inset;
+}
+li#seleccionado{
+    background-color: rgba(140, 209, 250, 0.63);
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: bisque;
+    }
+}
+@media screen and (orientation:portrait){
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    *{
+        color: white;
+    }
+}
+@media screen and (min-width:900px){
+li{
+    width: 100px;
+}
+}
+@media screen and (min-width:600px){
+    li{
+        width: 200px;
+    }
+<<<<<<< HEAD
+}
+
+footer {
+    background-color: rgba(255, 228, 196, 0.13);
+    margin: 5% 2% 2% 25%;
+    text-align: center;
+    border: solid 1px;
+    width: 50%;
+    text-shadow: 2px 3px 2px rgb(82, 202, 238);
+    border-style: groove;
+}
+
+footer:hover {
+    text-transform: uppercase;
+}
+
+.imagenes>picture>img {
+    height: 16vh;
+    width: auto;
+}
+
+.imagenes>picture>figcaption {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 14em;
+}
+
+.fotos>picture>img {
+    height: 30vh;
+    width: auto;
+    margin: 2% 2% 2% 2%;
+    margin-right: 2em;
+}
+
+.fotos>picture>figcaption {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 26em;
+}
+#fotopararecortar{
+    width: 80%;
+    object-fit: cover;
+    height: 60%
+}
+=======
+    }
+>>>>>>> 3252eb4b6a1feccaa8b644c617463fd5ecf2734a
